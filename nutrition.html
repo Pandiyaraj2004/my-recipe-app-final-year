@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Nutrition</title>
+    <link rel="stylesheet" href="./nutrition.css">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">         
+        <img src="logo.jpg">
+    </div>
+        <input type="checkbox" id="check">
+        
+    <lable for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="colse-icon"></i>
+    </lable>
+    <nav class="navbar">
+        <a href="index.html" style="--i:0;" ><b>Home</b></a>
+        <a href="fn.html" style="--i:1;"><b>Find Recipie By Name</b></a>
+        <a href="nutrition.html" style="--i:2;"><b>Find Nutrition</b></a>
+        <a href="about.html" style="--i:3;"><b>About</b></a>
+    </nav>
+    </header>
+  
+    <div id="main">
+        <h1>Find Food Nutrition</h1>
+        <textarea id="text-area" value="To type your food items"></textarea>
+        <button id="submit-btn">Submit</button>
+      </div>
+
+    
+      <script src="./nutrition.js"></script>
+      <div id="calories-display"></div>
+      <div id="fat-display"></div>
+      <div id="carbs-display"></div>
+      <div id="protein-display"></div>
+    
+</body>
+</html>
+
+
